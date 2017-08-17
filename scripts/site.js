@@ -38,10 +38,10 @@
         return el.getAttribute('data-y');
       },
       duration: function(el, i, l) {
-        return 700 - (i * (600 / l))
+        return 600 - (i * (600 / l))
       },
       delay: function(el, i, l) {
-        return i * (80 / l) ;
+        return i * (75 / l) ;
       },
       scale: [1, function(el, i, l) {
         return 0;
